@@ -1,0 +1,1 @@
+gcc main.c -Os $(pkg-config --libs --cflags raylib) -lpthread
